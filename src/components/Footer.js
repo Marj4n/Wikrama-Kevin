@@ -102,6 +102,10 @@ export default function Footer() {
                 title: 'nivkaiser@gmail.com',
                 path: 'mailto:nivkaiser@gmail.com',
               },
+              {
+                title: 'Personal Website',
+                path: 'https://kvn.netlify.app/',
+              },
             ]}
           />
         </div>
