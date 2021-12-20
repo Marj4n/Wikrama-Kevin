@@ -125,17 +125,6 @@ export default function NavMenu() {
         </li>
         <li>
           <NavLink
-            to="/matrikulasi"
-            onClick={() => setShowNav(!showNav)}
-            role="button"
-            onKeyDown={() => setShowNav(!showNav)}
-            tabIndex={0}
-          >
-            Matrikulasi
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
             to="/kantin"
             onClick={() => setShowNav(!showNav)}
             role="button"
@@ -154,6 +143,17 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Perpustakaan
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/matrikulasi"
+            onClick={() => setShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => setShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Matrikulasi
           </NavLink>
         </li>
       </ul>
