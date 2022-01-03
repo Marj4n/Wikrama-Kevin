@@ -6,6 +6,18 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
   }
+  ::-webkit-scrollbar {
+  width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+  background: #1E1E1E; 
+  }
+  ::-webkit-scrollbar-thumb {
+  background: #BCB4B4; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  }
   :root{
     --dark-bg: #262626;
     --gray-1: #BCB4B4;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Fade from 'react-reveal';
+import { Bounce } from 'react-reveal';
 
 const SectionTitleStyle = styled.div`
   text-align: center;
@@ -31,10 +31,10 @@ export default function SectionTitle({
 }) {
   return (
     <SectionTitleStyle className="section-title">
-      <Fade bottom>
+      <Bounce bottom cascade>
         <p>{subheading}</p>
         <h2>{heading}</h2>
-      </Fade>
+      </Bounce>
     </SectionTitleStyle>
   );
 }
